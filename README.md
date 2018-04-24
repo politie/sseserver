@@ -31,6 +31,17 @@ Open `examples/test_sse.html` to receive the SSE events.
 kill -HUP <PID of sseserver>
 ```
 
+### Use with Consul Template
+
+The `sseserver` works nicely when combined with [Consul Template](https://github.com/hashicorp/consul-template) to stream information from Consul to clients/browsers.
+
+```
+./consul-template \
+-template=/endpoints.ctmpl:/endpoints.json \
+-exec='./sseserver -enable-syslog -context /endpoints -input-file /endpoints.json' \
+-exec-reload-signal=SIGHUP
+```
+
 Contributors
 ----------
 
