@@ -30,3 +30,9 @@ Open `examples/test_sse.html` to receive the SSE events.
 ```
 kill -HUP <PID of sseserver>
 ```
+
+Contributors
+----------
+
+* [Arno](https://github.com/arnobroekhof)
+* [Richard](https://github.com/rkettelerij)
