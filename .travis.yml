@@ -1,7 +1,6 @@
 language: go
 go:
 - '1.10'
-- master
 install: true
 matrix:
   allow_failures:
@@ -17,7 +16,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: $GITHUB_OAUTH_TOKEN
+    secure: G4DtX+WuP1MuHY3je1CPwOVtSijICh+mGDRWxHylmYQ0PIY1aZkQvOSL/gI3jzy9k0dwbiUMRkmvG4KFZQpdz0arnlZi5Wr/aeDf3kqNuFOePvBR5fY/hTphb4vN813YYGOsJoiWGateZVvVIdb8O+KBdOT2TgwX/lCGutK6jtwamvVkURYDHTxjq4rsVEfeoXwFp6ARpHDtfF7LQqLIMZBw5wH6rcP2VKY1z0rgATLYijoYrnINnXuMPHenBzTyta5ClsMWXlCN8N1hRZAiRgAHMS8/PFt64yaG3Gx5FP+3NDs5VKaYPTM4mmyAjfgTnWZUqONXxdwkZEj979liiNCqtEhwM1BkESTmLL4uFKPxyyn9jh730GRpgyxKdMdyG/s+MHryBb+pIIyp96cAJtgD9ygSI2hwD0y6mqt93FmLm+2lYt0rCw8NAvCnod5wpNdbTWdlZ7tEkroHCBSe5v58ANktRbCYNg17lF8JMRbnta9VXToWbpFEirFGGgqA/kg5Aped8sX6N67KHNzRn+AtKMljGvsVf2kXEdUK5U9cy7fFg5FTOBWjvOAo5liNi85pHNlniiisNCGGe2f2j1oVBFxZSZcMEOcujh44mVBpk9hy1m30oZgJ/qk9Y+AadMHjTjenR9zxhU+nzW2afMARGXT9qdO/qp5j35wjRLQ=
   file_glob: true
   file: bin/*
   on:
