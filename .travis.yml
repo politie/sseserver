@@ -21,4 +21,4 @@ deploy:
   file_glob: true	
   file: bin/*	
   on:	
-    repo: politie/sseserver
+    tags: true
