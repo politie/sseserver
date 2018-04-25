@@ -9,8 +9,8 @@ if [ "$#" -ne 1 ]; then
 fi
 
 VERSION=$1
-BUILD_OS="darwin linux windows"
-# BUILD_OS="darwin linux"
+#BUILD_OS="darwin linux windows"
+BUILD_OS="darwin linux"
 
 function build_binaries {
 
