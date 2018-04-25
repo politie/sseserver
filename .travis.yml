@@ -13,3 +13,4 @@ before_script:
 script:
 - make dev-dependencies
 - make test
+- make release
