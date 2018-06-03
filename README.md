@@ -1,4 +1,4 @@
-# sseserver [![Build Status](https://travis-ci.org/politie/sseserver.svg?branch=master)](https://travis-ci.org/politie/sseserver)
+# sseserver [![Build Status](https://travis-ci.org/politie/sseserver.svg?branch=master)](https://travis-ci.org/politie/sseserver) [![Go Report Card](https://goreportcard.com/badge/github.com/politie/sseserver)](https://goreportcard.com/report/github.com/politie/sseserver)
 
 Server to stream a JSON file over [Server-Sent-Events (SSE)](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/) to a client/browser.
 
